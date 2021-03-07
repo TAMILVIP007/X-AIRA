@@ -1,12 +1,12 @@
 # x aira 
 <p align="center">
-    <a href="https://github.com/MR-SHRLCK/X-aira/commits/master"><img src="https://img.shields.io/github/last-commit/MR-SHRLCK/X-aira/master?label=Last%20Commit&style=flat-square&logo=github&color=F10070" alt="Commit" /></a>
-    <a href="https://github.com/MR-SHRLCK/X-aira/stargazers"><img src="https://img.shields.io/github/stars/MR-SHRLCK/X-aira?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
-    <a href="https://github.com/MR-SHRLCK/X-aira/network/members"><img src="https://img.shields.io/github/forks/MR-SHRLCK/X-aira?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
+    <a href="https://github.com/MR-SHRLCK/X-AIRA/commits/master"><img src="https://img.shields.io/github/last-commit/MR-SHRLCK/X-AIRA/master?label=Last%20Commit&style=flat-square&logo=github&color=F10070" alt="Commit" /></a>
+    <a href="https://github.com/MR-SHRLCK/X-AIRA/stargazers"><img src="https://img.shields.io/github/stars/MR-SHRLCK/X-AIRA?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/MR-SHRLCK/X-AIRA/network/members"><img src="https://img.shields.io/github/forks/MR-SHRLCK/X-AIRA?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
 </p>
 <p align="center">
-    <a href="https://app.codacy.com/manual/MR-SHRLCK/X-aira/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/MR-SHRLCK/X-aira"> <img src="https://img.shields.io/github/repo-size/MR-SHRLCK/X-aira?color=brightgreen&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://app.codacy.com/manual/MR-SHRLCK/X-AIRA/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/MR-SHRLCK/X-AIRA"> <img src="https://img.shields.io/github/repo-size/MR-SHRLCK/X-aira?color=brightgreen&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 [![Python 3.6](https://img.shields.io/badge/Python-3.6%20or%20newer-blue.svg)](https://www.python.org/downloads/release/python-360/)
