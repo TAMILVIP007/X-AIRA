@@ -3,7 +3,7 @@ from typing import Union
 
 from sqlalchemy import Boolean, Column, String
 
-from Sherlock.modules.sql import BASE, SESSION
+from Aira.modules.sql import BASE, SESSION
 
 
 class AntiArabicChatSettings(BASE):

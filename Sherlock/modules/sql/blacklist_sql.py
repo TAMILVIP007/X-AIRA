@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, Integer, String, UnicodeText, distinct, func
 
-from Sherlock.modules.sql import BASE, SESSION
+from Aira.modules.sql import BASE, SESSION
 
 
 class BlackListFilters(BASE):

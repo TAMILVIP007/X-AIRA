@@ -34,7 +34,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-from Sherlock import (
+from Aira import (
     ALLOW_EXCL,
     BL_CHATS,
     CERT_PATH,
@@ -56,11 +56,11 @@ from Sherlock import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from Sherlock.modules import ALL_MODULES
-from Sherlock.modules.helper_funcs.alternate import typing_action
-from Sherlock.modules.helper_funcs.chat_status import is_user_admin
-from Sherlock.modules.helper_funcs.misc import paginate_modules
-from Sherlock.modules.helper_funcs.readable_time import get_readable_time
+from Aira.modules import ALL_MODULES
+from Aira.modules.helper_funcs.alternate import typing_action
+from Aira.modules.helper_funcs.chat_status import is_user_admin
+from Aira.modules.helper_funcs.misc import paginate_modules
+from Aira.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 Hello there, I'm [αírα](https://telegra.ph/file/2697c9d6ef63d9bbb5ed8.jpg)
@@ -118,7 +118,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("Sherlock.modules." + module_name)
+    imported_module = importlib.import_module("Aira.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 

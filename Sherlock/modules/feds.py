@@ -22,17 +22,17 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import Sherlock.modules.sql.feds_sql as sql
-from Sherlock import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, TIGERS, WOLVES, dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler
-from Sherlock.modules.helper_funcs.alternate import send_message
-from Sherlock.modules.helper_funcs.chat_status import is_user_admin
-from Sherlock.modules.helper_funcs.extraction import (
+import Aira.modules.sql.feds_sql as sql
+from Aira import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, TIGERS, WOLVES, dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler
+from Aira.modules.helper_funcs.alternate import send_message
+from Aira.modules.helper_funcs.chat_status import is_user_admin
+from Aira.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from Sherlock.modules.helper_funcs.string_handling import markdown_parser
+from Aira.modules.helper_funcs.string_handling import markdown_parser
 
 # Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect MrYacha and peaktogoo and AyraHikari too
 # Federation by MrYacha 2018-2019

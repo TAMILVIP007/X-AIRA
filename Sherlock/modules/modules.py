@@ -4,8 +4,8 @@ import importlib
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from Sherlock import dispatcher, telethn
-from Sherlock.__main__ import (
+from Aira import dispatcher, telethn
+from Aira.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -16,7 +16,7 @@ from Sherlock.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from Sherlock.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from Aira.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 
 
 @run_async

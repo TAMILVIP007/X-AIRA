@@ -5,8 +5,8 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from Sherlock import TIME_API_KEY, dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler
+from Aira import TIME_API_KEY, dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler
 
 
 def generate_time(to_find: str, findtype: List[str]) -> str:

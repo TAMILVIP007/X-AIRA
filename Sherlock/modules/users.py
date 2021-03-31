@@ -11,10 +11,10 @@ from telegram.ext import (
     run_async,
 )
 
-import Sherlock.modules.sql.users_sql as sql
-from Sherlock import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from Sherlock.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from Sherlock.modules.sql.users_sql import get_all_users
+import Aira.modules.sql.users_sql as sql
+from Aira import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from Aira.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from Aira.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5

@@ -16,8 +16,8 @@ from telegram import (
 from telegram.ext import CallbackContext, run_async
 from telegram.utils.helpers import mention_html
 
-from Sherlock import dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler
+from Aira import dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 

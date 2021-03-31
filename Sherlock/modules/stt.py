@@ -6,9 +6,9 @@ from telethon import *
 from telethon.tl import functions, types
 from telethon.tl.types import *
 
-from Sherlock import *
-from Sherlock import telethn
-from Sherlock.events import register
+from Aira import *
+from Aira import telethn
+from Aira.events import register
 
 
 async def is_register_admin(chat, user):

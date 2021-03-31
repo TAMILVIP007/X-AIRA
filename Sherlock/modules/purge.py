@@ -5,8 +5,8 @@ from telethon import events
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from Sherlock import DEV_USERS, telethn
-from Sherlock.modules.helper_funcs.telethn.chatstatus import (
+from Aira import DEV_USERS, telethn
+from Aira.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )

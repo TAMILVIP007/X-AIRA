@@ -4,9 +4,9 @@ import random
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-import Sherlock.modules.animequotesstring as animequotesstring
-from Sherlock import dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler
+import Aira.modules.animequotesstring as animequotesstring
+from Aira import dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler
 
 
 @run_async

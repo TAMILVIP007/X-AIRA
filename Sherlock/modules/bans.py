@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from Sherlock import (
+from Aira import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -15,8 +15,8 @@ from Sherlock import (
     WOLVES,
     dispatcher,
 )
-from Sherlock.modules.disable import DisableAbleCommandHandler
-from Sherlock.modules.helper_funcs.chat_status import (
+from Aira.modules.disable import DisableAbleCommandHandler
+from Aira.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
@@ -26,9 +26,9 @@ from Sherlock.modules.helper_funcs.chat_status import (
     user_admin,
     user_can_ban,
 )
-from Sherlock.modules.helper_funcs.extraction import extract_user_and_text
-from Sherlock.modules.helper_funcs.string_handling import extract_time
-from Sherlock.modules.log_channel import gloggable, loggable
+from Aira.modules.helper_funcs.extraction import extract_user_and_text
+from Aira.modules.helper_funcs.string_handling import extract_time
+from Aira.modules.log_channel import gloggable, loggable
 
 
 @run_async

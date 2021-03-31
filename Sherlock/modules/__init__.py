@@ -1,4 +1,4 @@
-from Sherlock import LOAD, LOGGER, NO_LOAD
+from Aira import LOAD, LOGGER, NO_LOAD
 
 
 def __list_all_modules():

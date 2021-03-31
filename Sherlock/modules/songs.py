@@ -5,8 +5,8 @@ from pyrogram import filters
 from pytube import YouTube
 from youtubesearchpython import VideosSearch
 
-from Sherlock import LOGGER, pbot
-from Sherlock.utils.ut import get_arg
+from Aira import LOGGER, pbot
+from Aira.utils.ut import get_arg
 
 
 def yt_search(song):

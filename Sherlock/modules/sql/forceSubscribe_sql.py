@@ -16,7 +16,7 @@
 
 from sqlalchemy import Column, Numeric, String
 
-from Sherlock.modules.sql import BASE, SESSION
+from Aira.modules.sql import BASE, SESSION
 
 
 class forceSubscribe(BASE):

@@ -13,8 +13,8 @@ from telethon import events
 from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.types import ChannelParticipantsAdmins
 
-import Sherlock.modules.sql.userinfo_sql as sql
-from Sherlock import (
+import Aira.modules.sql.userinfo_sql as sql
+from Aira import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -25,14 +25,14 @@ from Sherlock import (
     dispatcher,
     sw,
 )
-from Sherlock import telethn as SaitamaTelethonClient
-from Sherlock.__main__ import STATS, TOKEN, USER_INFO
-from Sherlock.modules.disable import DisableAbleCommandHandler
-from Sherlock.modules.helper_funcs.chat_status import sudo_plus
-from Sherlock.modules.helper_funcs.extraction import extract_user
-from Sherlock.modules.sql.afk_sql import check_afk_status, is_afk
-from Sherlock.modules.sql.global_bans_sql import is_user_gbanned
-from Sherlock.modules.sql.users_sql import get_user_num_chats
+from Aira import telethn as SaitamaTelethonClient
+from Aira.__main__ import STATS, TOKEN, USER_INFO
+from Aira.modules.disable import DisableAbleCommandHandler
+from Aira.modules.helper_funcs.chat_status import sudo_plus
+from Aira.modules.helper_funcs.extraction import extract_user
+from Aira.modules.sql.afk_sql import check_afk_status, is_afk
+from Aira.modules.sql.global_bans_sql import is_user_gbanned
+from Aira.modules.sql.users_sql import get_user_num_chats
 
 
 def no_by_per(totalhp, percentage):

@@ -37,7 +37,7 @@ This is because markdown parsing is done by iterating through a dict, which is o
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
 The preferred version is to use a `config.py` file, as it makes it easier to see all your settings grouped together.
-This file should be placed in your `Sherlock` folder, alongside the `__main__.py` file. 
+This file should be placed in your `Aira` folder, alongside the `__main__.py` file. 
 This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of 
 your other settings.
 
@@ -46,7 +46,7 @@ defaults set in the sample_config, hence making it easier to upgrade.
 
 An example `config.py` file could be:
 ```
-from Sherlock.sample_config import Config
+from Aira.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 254318997  # your telegram ID
@@ -160,7 +160,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from Sherlock import dispatcher`.
+`from Aira import dispatcher`.
 
 You can then add commands using the usual
 

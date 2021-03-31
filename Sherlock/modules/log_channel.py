@@ -3,7 +3,7 @@ from functools import wraps
 
 from telegram.ext import CallbackContext
 
-from Sherlock.modules.helper_funcs.misc import is_module_loaded
+from Aira.modules.helper_funcs.misc import is_module_loaded
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
@@ -13,9 +13,9 @@ if is_module_loaded(FILENAME):
     from telegram.ext import CommandHandler, JobQueue, run_async
     from telegram.utils.helpers import escape_markdown
 
-    from Sherlock import EVENT_LOGS, LOGGER, dispatcher
-    from Sherlock.modules.helper_funcs.chat_status import user_admin
-    from Sherlock.modules.sql import log_channel_sql as sql
+    from Aira import EVENT_LOGS, LOGGER, dispatcher
+    from Aira.modules.helper_funcs.chat_status import user_admin
+    from Aira.modules.sql import log_channel_sql as sql
 
     def loggable(func):
         @wraps(func)

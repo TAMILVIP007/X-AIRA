@@ -7,9 +7,9 @@ from PIL import Image
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from Sherlock import dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler
-from Sherlock.modules.thonkify_dict import thonkifydict
+from Aira import dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler
+from Aira.modules.thonkify_dict import thonkifydict
 
 
 @run_async

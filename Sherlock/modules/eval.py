@@ -9,8 +9,8 @@ from contextlib import redirect_stdout
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from Sherlock import LOGGER, dispatcher
-from Sherlock.modules.helper_funcs.chat_status import dev_plus
+from Aira import LOGGER, dispatcher
+from Aira.modules.helper_funcs.chat_status import dev_plus
 
 namespaces = {}
 

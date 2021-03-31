@@ -3,9 +3,9 @@ import json
 import requests
 from telegram.ext import CommandHandler, run_async
 
-from Sherlock import dispatcher
-from Sherlock.modules.helper_funcs.alternate import send_message
-from Sherlock.modules.helper_funcs.chat_status import user_admin
+from Aira import dispatcher
+from Aira.modules.helper_funcs.alternate import send_message
+from Aira.modules.helper_funcs.chat_status import user_admin
 
 
 @run_async

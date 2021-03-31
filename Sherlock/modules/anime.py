@@ -8,8 +8,8 @@ import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
-from Sherlock import DEV_USERS, DRAGONS, OWNER_ID, dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler
+from Aira import DEV_USERS, DRAGONS, OWNER_ID, dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler
 
 info_btn = "More Information"
 kaizoku_btn = "Kaizoku ☠️"

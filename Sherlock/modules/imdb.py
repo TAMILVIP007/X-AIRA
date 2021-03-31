@@ -5,8 +5,8 @@ import requests
 from telethon import types
 from telethon.tl import functions
 
-from Sherlock import telethn
-from Sherlock.events import register
+from Aira import telethn
+from Aira.events import register
 
 langi = "en"
 

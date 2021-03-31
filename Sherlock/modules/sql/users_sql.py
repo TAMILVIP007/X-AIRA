@@ -10,8 +10,8 @@ from sqlalchemy import (
     func,
 )
 
-from Sherlock import dispatcher
-from Sherlock.modules.sql import BASE, SESSION
+from Aira import dispatcher
+from Aira.modules.sql import BASE, SESSION
 
 
 class Users(BASE):

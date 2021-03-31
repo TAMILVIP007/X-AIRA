@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String
 
-from Sherlock.modules.sql import BASE, SESSION
+from Aira.modules.sql import BASE, SESSION
 
 
 class ChatbotChats(BASE):

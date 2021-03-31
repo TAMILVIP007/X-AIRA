@@ -7,12 +7,12 @@ from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from Sherlock import DEMONS, DEV_USERS, DRAGONS, OWNER_ID, TIGERS, WOLVES, dispatcher
-from Sherlock.modules.helper_funcs.chat_status import dev_plus, sudo_plus, whitelist_plus
-from Sherlock.modules.helper_funcs.extraction import extract_user
-from Sherlock.modules.log_channel import gloggable
+from Aira import DEMONS, DEV_USERS, DRAGONS, OWNER_ID, TIGERS, WOLVES, dispatcher
+from Aira.modules.helper_funcs.chat_status import dev_plus, sudo_plus, whitelist_plus
+from Aira.modules.helper_funcs.extraction import extract_user
+from Aira.modules.log_channel import gloggable
 
-ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "Sherlock/elevated_users.json")
+ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "Aira/elevated_users.json")
 
 
 def check_user_id(user_id: int, context: CallbackContext) -> Optional[str]:

@@ -5,10 +5,10 @@ from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
 
-from Sherlock import dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
-from Sherlock.modules.sql import afk_sql as sql
-from Sherlock.modules.users import get_user_id
+from Aira import dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from Aira.modules.sql import afk_sql as sql
+from Aira.modules.users import get_user_id
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8

@@ -6,9 +6,9 @@ from gtts import gTTS
 from telegram import ChatAction
 from telegram.ext import run_async
 
-from Sherlock import dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler
-from Sherlock.modules.helper_funcs.alternate import send_action, typing_action
+from Aira import dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler
+from Aira.modules.helper_funcs.alternate import send_action, typing_action
 
 
 @run_async

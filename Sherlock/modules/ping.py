@@ -5,9 +5,9 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from Sherlock import StartTime, dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler
-from Sherlock.modules.helper_funcs.chat_status import sudo_plus
+from Aira import StartTime, dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler
+from Aira.modules.helper_funcs.chat_status import sudo_plus
 
 sites_list = {
     "Telegram": "https://api.telegram.org",

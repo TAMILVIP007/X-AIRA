@@ -5,14 +5,14 @@ from telegram.utils.helpers import mention_html
 from telegram import ParseMode , Bot, Update
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 
-from Sherlock import dispatcher, REDIS
-from Sherlock.modules.disable import DisableAbleCommandHandler
-from Sherlock.modules.helper_funcs.chat_status import (
+from Aira import dispatcher, REDIS
+from Aira.modules.disable import DisableAbleCommandHandler
+from Aira.modules.helper_funcs.chat_status import (
     bot_admin,
     user_admin
 )
-from Sherlock.modules.helper_funcs.extraction import extract_user_and_text
-from Sherlock.modules.helper_funcs.alternate import typing_action
+from Aira.modules.helper_funcs.extraction import extract_user_and_text
+from Aira.modules.helper_funcs.alternate import typing_action
 
 
 

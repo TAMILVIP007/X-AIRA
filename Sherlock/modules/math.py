@@ -4,8 +4,8 @@ import pynewtonmath as newton
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from Sherlock import dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler
+from Aira import dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler
 
 
 @run_async

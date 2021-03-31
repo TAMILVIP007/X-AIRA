@@ -9,8 +9,8 @@ from PIL import Image
 from spongemock import spongemock
 from telegram.ext import run_async
 
-from Sherlock import dispatcher
-from Sherlock.modules.disable import DisableAbleCommandHandler
+from Aira import dispatcher
+from Aira.modules.disable import DisableAbleCommandHandler
 
 
 @run_async

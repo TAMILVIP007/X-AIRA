@@ -7,22 +7,22 @@ from telegram import Message, ParseMode
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-# from Sherlock.modules.sql import warns_sql as warnssql
-import Sherlock.modules.sql.blacklist_sql as blacklistsql
+# from Aira.modules.sql import warns_sql as warnssql
+import Aira.modules.sql.blacklist_sql as blacklistsql
 
-# from Sherlock.modules.sql import cust_filters_sql as filtersql
-# import Sherlock.modules.sql.welcome_sql as welcsql
-import Sherlock.modules.sql.locks_sql as locksql
-import Sherlock.modules.sql.notes_sql as sql
+# from Aira.modules.sql import cust_filters_sql as filtersql
+# import Aira.modules.sql.welcome_sql as welcsql
+import Aira.modules.sql.locks_sql as locksql
+import Aira.modules.sql.notes_sql as sql
 
-# from Sherlock.modules.rules import get_rules
-import Sherlock.modules.sql.rules_sql as rulessql
-from Sherlock import JOIN_LOGGER, LOGGER, OWNER_ID, dispatcher
-from Sherlock.__main__ import DATA_IMPORT
-from Sherlock.modules.connection import connected
-from Sherlock.modules.helper_funcs.alternate import typing_action
-from Sherlock.modules.helper_funcs.chat_status import user_admin
-from Sherlock.modules.sql import disable_sql as disabledsql
+# from Aira.modules.rules import get_rules
+import Aira.modules.sql.rules_sql as rulessql
+from Aira import JOIN_LOGGER, LOGGER, OWNER_ID, dispatcher
+from Aira.__main__ import DATA_IMPORT
+from Aira.modules.connection import connected
+from Aira.modules.helper_funcs.alternate import typing_action
+from Aira.modules.helper_funcs.chat_status import user_admin
+from Aira.modules.sql import disable_sql as disabledsql
 
 
 @run_async
