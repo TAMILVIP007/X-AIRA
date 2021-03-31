@@ -12,10 +12,10 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
 
-import Aira.modules.sql.rules_sql as sql
-from Aira import dispatcher
-from Aira.modules.helper_funcs.chat_status import user_admin
-from Aira.modules.helper_funcs.string_handling import markdown_parser
+import Sherlock.modules.sql.rules_sql as sql
+from Sherlock import dispatcher
+from Sherlock.modules.helper_funcs.chat_status import user_admin
+from Sherlock.modules.helper_funcs.string_handling import markdown_parser
 
 
 @run_async

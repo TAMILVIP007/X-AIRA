@@ -17,11 +17,11 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import Aira.modules.sql.chatbot_sql as sql
-from Aira import AI_API_KEY, SUPPORT_CHAT, dispatcher
-from Aira.modules.helper_funcs.chat_status import user_admin
-from Aira.modules.helper_funcs.filters import CustomFilters
-from Aira.modules.log_channel import gloggable
+import Sherlock.modules.sql.chatbot_sql as sql
+from Sherlock import AI_API_KEY, SUPPORT_CHAT, dispatcher
+from Sherlock.modules.helper_funcs.chat_status import user_admin
+from Sherlock.modules.helper_funcs.filters import CustomFilters
+from Sherlock.modules.log_channel import gloggable
 
 CoffeeHouseAPI = API(AI_API_KEY)
 api_client = LydiaAI(CoffeeHouseAPI)

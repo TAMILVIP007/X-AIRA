@@ -1,9 +1,9 @@
 from telegram.ext import run_async
 
-from Aira import dispatcher
-from Aira.modules.disable import DisableAbleCommandHandler
-from Aira.modules.helper_funcs.alternate import send_message
-from Aira.modules.helper_funcs.chat_status import user_admin
+from Sherlock import dispatcher
+from Sherlock.modules.disable import DisableAbleCommandHandler
+from Sherlock.modules.helper_funcs.alternate import send_message
+from Sherlock.modules.helper_funcs.chat_status import user_admin
 
 
 @run_async

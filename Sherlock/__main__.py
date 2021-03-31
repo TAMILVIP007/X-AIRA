@@ -34,7 +34,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-from Aira import (
+from Sherlock import (
     ALLOW_EXCL,
     BL_CHATS,
     CERT_PATH,
@@ -56,11 +56,11 @@ from Aira import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from Aira.modules import ALL_MODULES
-from Aira.modules.helper_funcs.alternate import typing_action
-from Aira.modules.helper_funcs.chat_status import is_user_admin
-from Aira.modules.helper_funcs.misc import paginate_modules
-from Aira.modules.helper_funcs.readable_time import get_readable_time
+from Sherlock.modules import ALL_MODULES
+from Sherlock.modules.helper_funcs.alternate import typing_action
+from Sherlock.modules.helper_funcs.chat_status import is_user_admin
+from Sherlock.modules.helper_funcs.misc import paginate_modules
+from Sherlock.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 Hello there, I'm [αírα](https://telegra.ph/file/2697c9d6ef63d9bbb5ed8.jpg)
@@ -79,7 +79,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Aira to your group 💫", url="t.me/Xaira_bot?startgroup=true"
+            text="💫 Add Sherlock to your group 💫", url="t.me/Xaira_bot?startgroup=true"
         ),
     ],
 ]
@@ -118,7 +118,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("Aira.modules." + module_name)
+    imported_module = importlib.import_module("Sherlock.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -361,7 +361,7 @@ def DaisyX_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @mr_srlock.* "
-            f"\n\n 🔥 Join [Aira support](https://t.me/XairaBot) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [Sherlock support](https://t.me/XairaBot) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/2697c9d6ef63d9bbb5ed8.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",

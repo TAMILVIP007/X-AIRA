@@ -14,19 +14,19 @@ from telegram.ext import CommandHandler, Filters, MessageHandler
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-import Aira.modules.sql.locks_sql as sql
-from Aira import DRAGONS, LOGGER, dispatcher
-from Aira.modules.connection import connected
-from Aira.modules.disable import DisableAbleCommandHandler
-from Aira.modules.helper_funcs.alternate import send_message, typing_action
-from Aira.modules.helper_funcs.chat_status import (
+import Sherlock.modules.sql.locks_sql as sql
+from Sherlock import DRAGONS, LOGGER, dispatcher
+from Sherlock.modules.connection import connected
+from Sherlock.modules.disable import DisableAbleCommandHandler
+from Sherlock.modules.helper_funcs.alternate import send_message, typing_action
+from Sherlock.modules.helper_funcs.chat_status import (
     can_delete,
     is_bot_admin,
     is_user_admin,
     user_admin,
     user_not_admin,
 )
-from Aira.modules.log_channel import loggable
+from Sherlock.modules.log_channel import loggable
 
 ad = AlphabetDetector()
 

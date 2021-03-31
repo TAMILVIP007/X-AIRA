@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText, distinct, func
 
-from Aira.modules.helper_funcs.msg_types import Types
-from Aira.modules.sql import BASE, SESSION
+from Sherlock.modules.helper_funcs.msg_types import Types
+from Sherlock.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):

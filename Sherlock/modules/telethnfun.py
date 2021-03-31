@@ -9,8 +9,8 @@ from bing_image_downloader import downloader
 from requests import get, post
 from telethon.tl import functions, types
 
-from Aira import telethn as client
-from Aira.events import register
+from Sherlock import telethn as client
+from Sherlock.events import register
 
 
 def progress(current, total):

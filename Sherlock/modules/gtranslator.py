@@ -3,8 +3,8 @@ from googletrans import LANGUAGES, Translator
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from Aira import dispatcher
-from Aira.modules.disable import DisableAbleCommandHandler
+from Sherlock import dispatcher
+from Sherlock.modules.disable import DisableAbleCommandHandler
 
 
 @run_async

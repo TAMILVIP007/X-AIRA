@@ -9,15 +9,15 @@ from telegram.ext import (
     run_async,
 )
 
-from Aira import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from Aira.modules.disable import DisableAbleCommandHandler
-from Aira.modules.helper_funcs.chat_status import (
+from Sherlock import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from Sherlock.modules.disable import DisableAbleCommandHandler
+from Sherlock.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from Aira.modules.sql import cleaner_sql as sql
+from Sherlock.modules.sql import cleaner_sql as sql
 
 if ALLOW_EXCL:
     CMD_STARTERS = ("/", "!")

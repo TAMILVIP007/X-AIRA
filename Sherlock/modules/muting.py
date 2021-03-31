@@ -5,17 +5,17 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from Aira import LOGGER, TIGERS, dispatcher
-from Aira.modules.helper_funcs.chat_status import (
+from Sherlock import LOGGER, TIGERS, dispatcher
+from Sherlock.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
     is_user_admin,
     user_admin,
 )
-from Aira.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from Aira.modules.helper_funcs.string_handling import extract_time
-from Aira.modules.log_channel import loggable
+from Sherlock.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from Sherlock.modules.helper_funcs.string_handling import extract_time
+from Sherlock.modules.log_channel import loggable
 
 
 @run_async

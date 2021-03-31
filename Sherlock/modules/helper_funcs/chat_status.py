@@ -5,7 +5,7 @@ from cachetools import TTLCache
 from telegram import Chat, ChatMember, ParseMode, Update
 from telegram.ext import CallbackContext
 
-from Aira import (
+from Sherlock import (
     DEL_CMDS,
     DEMONS,
     DEV_USERS,
@@ -389,6 +389,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from Aira.modules import connection
+from Sherlock.modules import connection
 
 connected = connection.connected

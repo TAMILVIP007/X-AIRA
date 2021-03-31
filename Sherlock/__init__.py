@@ -104,7 +104,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from Aira.config import Development as Config
+    from Sherlock.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -181,7 +181,7 @@ else:
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("saitama", API_ID, API_HASH)
-pbot = Client("Aira", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+pbot = Client("Sherlock", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
 
@@ -192,7 +192,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from Aira.modules.helper_funcs.handlers import (
+from Sherlock.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,

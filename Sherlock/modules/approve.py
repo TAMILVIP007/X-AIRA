@@ -5,12 +5,12 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import Aira.modules.sql.approve_sql as sql
-from Aira import DRAGONS, dispatcher
-from Aira.modules.disable import DisableAbleCommandHandler
-from Aira.modules.helper_funcs.chat_status import user_admin
-from Aira.modules.helper_funcs.extraction import extract_user
-from Aira.modules.log_channel import loggable
+import Sherlock.modules.sql.approve_sql as sql
+from Sherlock import DRAGONS, dispatcher
+from Sherlock.modules.disable import DisableAbleCommandHandler
+from Sherlock.modules.helper_funcs.chat_status import user_admin
+from Sherlock.modules.helper_funcs.extraction import extract_user
+from Sherlock.modules.log_channel import loggable
 
 
 @loggable

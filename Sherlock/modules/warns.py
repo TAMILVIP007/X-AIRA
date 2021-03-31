@@ -25,25 +25,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from Aira import TIGERS, WOLVES, dispatcher
-from Aira.modules.disable import DisableAbleCommandHandler
-from Aira.modules.helper_funcs.chat_status import (
+from Sherlock import TIGERS, WOLVES, dispatcher
+from Sherlock.modules.disable import DisableAbleCommandHandler
+from Sherlock.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from Aira.modules.helper_funcs.extraction import (
+from Sherlock.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from Aira.modules.helper_funcs.filters import CustomFilters
-from Aira.modules.helper_funcs.misc import split_message
-from Aira.modules.helper_funcs.string_handling import split_quotes
-from Aira.modules.log_channel import loggable
-from Aira.modules.sql import warns_sql as sql
+from Sherlock.modules.helper_funcs.filters import CustomFilters
+from Sherlock.modules.helper_funcs.misc import split_message
+from Sherlock.modules.helper_funcs.string_handling import split_quotes
+from Sherlock.modules.log_channel import loggable
+from Sherlock.modules.sql import warns_sql as sql
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"

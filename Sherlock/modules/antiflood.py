@@ -12,18 +12,18 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from Aira import TIGERS, WOLVES, dispatcher
-from Aira.modules.connection import connected
-from Aira.modules.helper_funcs.alternate import send_message
-from Aira.modules.helper_funcs.chat_status import (
+from Sherlock import TIGERS, WOLVES, dispatcher
+from Sherlock.modules.connection import connected
+from Sherlock.modules.helper_funcs.alternate import send_message
+from Sherlock.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from Aira.modules.helper_funcs.string_handling import extract_time
-from Aira.modules.log_channel import loggable
-from Aira.modules.sql import antiflood_sql as sql
+from Sherlock.modules.helper_funcs.string_handling import extract_time
+from Sherlock.modules.log_channel import loggable
+from Sherlock.modules.sql import antiflood_sql as sql
 
 FLOOD_GROUP = 3
 

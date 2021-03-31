@@ -14,8 +14,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import Aira.modules.sql.global_bans_sql as sql
-from Aira import (
+import Sherlock.modules.sql.global_bans_sql as sql
+from Sherlock import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -29,14 +29,14 @@ from Aira import (
     dispatcher,
     sw,
 )
-from Aira.modules.helper_funcs.chat_status import (
+from Sherlock.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
 )
-from Aira.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from Aira.modules.helper_funcs.misc import send_to_list
-from Aira.modules.sql.users_sql import get_user_com_chats
+from Sherlock.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from Sherlock.modules.helper_funcs.misc import send_to_list
+from Sherlock.modules.sql.users_sql import get_user_com_chats
 
 GBAN_ENFORCE_GROUP = 6
 

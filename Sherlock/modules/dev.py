@@ -6,8 +6,8 @@ from time import sleep
 from telegram import TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from Aira import dispatcher
-from Aira.modules.helper_funcs.chat_status import dev_plus
+from Sherlock import dispatcher
+from Sherlock.modules.helper_funcs.chat_status import dev_plus
 
 
 @run_async

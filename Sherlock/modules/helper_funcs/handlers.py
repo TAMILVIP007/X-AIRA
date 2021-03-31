@@ -8,8 +8,8 @@ from pyrate_limiter import (
 from telegram import Update
 from telegram.ext import CommandHandler, Filters, MessageHandler, RegexHandler
 
-import Aira.modules.sql.blacklistusers_sql as sql
-from Aira import ALLOW_EXCL, DEMONS, DEV_USERS, DRAGONS, TIGERS, WOLVES
+import Sherlock.modules.sql.blacklistusers_sql as sql
+from Sherlock import ALLOW_EXCL, DEMONS, DEV_USERS, DRAGONS, TIGERS, WOLVES
 
 if ALLOW_EXCL:
     CMD_STARTERS = ("/", "!")

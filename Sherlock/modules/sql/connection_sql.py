@@ -4,7 +4,7 @@ from typing import Union
 
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 
-from Aira.modules.sql import BASE, SESSION
+from Sherlock.modules.sql import BASE, SESSION
 
 
 class ChatAccessConnectionSettings(BASE):

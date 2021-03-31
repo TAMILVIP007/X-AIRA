@@ -2,9 +2,9 @@ import speedtest
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
-from Aira import DEV_USERS, dispatcher
-from Aira.modules.disable import DisableAbleCommandHandler
-from Aira.modules.helper_funcs.chat_status import dev_plus
+from Sherlock import DEV_USERS, dispatcher
+from Sherlock.modules.disable import DisableAbleCommandHandler
+from Sherlock.modules.helper_funcs.chat_status import dev_plus
 
 
 def convert(speed):

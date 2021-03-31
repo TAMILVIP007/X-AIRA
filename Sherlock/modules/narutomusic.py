@@ -18,8 +18,8 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-from Aira.events import register
-from Aira.utils import progress
+from Sherlock.events import register
+from Sherlock.utils import progress
 
 try:
 

@@ -8,11 +8,11 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
 
-import Aira.modules.helper_funcs.fun_strings as fun
-from Aira import DEMONS, DRAGONS, dispatcher
-from Aira.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
-from Aira.modules.helper_funcs.alternate import typing_action
-from Aira.modules.helper_funcs.extraction import extract_user
+import Sherlock.modules.helper_funcs.fun_strings as fun
+from Sherlock import DEMONS, DRAGONS, dispatcher
+from Sherlock.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from Sherlock.modules.helper_funcs.alternate import typing_action
+from Sherlock.modules.helper_funcs.extraction import extract_user
 
 
 @run_async

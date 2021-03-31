@@ -3,8 +3,8 @@ import threading
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Unauthorized
 
-from Aira import dispatcher
-from Aira.modules.sql import BASE, SESSION
+from Sherlock import dispatcher
+from Sherlock.modules.sql import BASE, SESSION
 
 
 class Federations(BASE):

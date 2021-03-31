@@ -4,8 +4,8 @@ import requests as r
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from Aira import SUPPORT_CHAT, WALL_API, dispatcher
-from Aira.modules.disable import DisableAbleCommandHandler
+from Sherlock import SUPPORT_CHAT, WALL_API, dispatcher
+from Sherlock.modules.disable import DisableAbleCommandHandler
 
 # Wallpapers module by @TheRealPhoenix using wall.alphacoders.com
 

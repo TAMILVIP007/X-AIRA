@@ -4,8 +4,8 @@ from typing import Union
 
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
-from Aira.modules.helper_funcs.msg_types import Types
-from Aira.modules.sql import BASE, SESSION
+from Sherlock.modules.helper_funcs.msg_types import Types
+from Sherlock.modules.sql import BASE, SESSION
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
 DEFAULT_GOODBYE = "Nice knowing ya!"

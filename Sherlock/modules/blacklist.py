@@ -6,17 +6,17 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters, MessageHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import Aira.modules.sql.blacklist_sql as sql
-from Aira import LOGGER, dispatcher
-from Aira.modules.connection import connected
-from Aira.modules.disable import DisableAbleCommandHandler
-from Aira.modules.helper_funcs.alternate import send_message, typing_action
-from Aira.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from Aira.modules.helper_funcs.extraction import extract_text
-from Aira.modules.helper_funcs.misc import split_message
-from Aira.modules.helper_funcs.string_handling import extract_time
-from Aira.modules.log_channel import loggable
-from Aira.modules.warns import warn
+import Sherlock.modules.sql.blacklist_sql as sql
+from Sherlock import LOGGER, dispatcher
+from Sherlock.modules.connection import connected
+from Sherlock.modules.disable import DisableAbleCommandHandler
+from Sherlock.modules.helper_funcs.alternate import send_message, typing_action
+from Sherlock.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Sherlock.modules.helper_funcs.extraction import extract_text
+from Sherlock.modules.helper_funcs.misc import split_message
+from Sherlock.modules.helper_funcs.string_handling import extract_time
+from Sherlock.modules.log_channel import loggable
+from Sherlock.modules.warns import warn
 
 BLACKLIST_GROUP = 11
 

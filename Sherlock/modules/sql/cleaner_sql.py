@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Boolean, Column, UnicodeText
 
-from Aira.modules.sql import BASE, SESSION
+from Sherlock.modules.sql import BASE, SESSION
 
 
 class CleanerBlueTextChatSettings(BASE):

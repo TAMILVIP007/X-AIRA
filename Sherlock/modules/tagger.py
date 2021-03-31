@@ -1,15 +1,15 @@
-# Written by Aira for Sher-lock bot
+# Written by Sherlock for Sher-lock bot
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
 from telegram.error import BadRequest
 from telegram.ext import CallbackQueryHandler, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from Aira import dispatcher
-from Aira.modules.disable import DisableAbleCommandHandler
-from Aira.modules.helper_funcs.alternate import typing_action
-from Aira.modules.helper_funcs.chat_status import bot_admin, user_admin
-from Aira.modules.helper_funcs.extraction import extract_user_and_text
+from Sherlock import dispatcher
+from Sherlock.modules.disable import DisableAbleCommandHandler
+from Sherlock.modules.helper_funcs.alternate import typing_action
+from Sherlock.modules.helper_funcs.chat_status import bot_admin, user_admin
+from Sherlock.modules.helper_funcs.extraction import extract_user_and_text
 
 
 @run_async

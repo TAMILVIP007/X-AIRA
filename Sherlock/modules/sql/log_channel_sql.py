@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, distinct, func
 
-from Aira.modules.sql import BASE, SESSION
+from Sherlock.modules.sql import BASE, SESSION
 
 
 class GroupLogs(BASE):

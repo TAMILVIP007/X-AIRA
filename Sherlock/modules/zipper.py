@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from Aira import TEMP_DOWNLOAD_DIRECTORY
-from Aira import telethn as client
-from Aira.events import register
+from Sherlock import TEMP_DOWNLOAD_DIRECTORY
+from Sherlock import telethn as client
+from Sherlock.events import register
 
 
 async def is_register_admin(chat, user):

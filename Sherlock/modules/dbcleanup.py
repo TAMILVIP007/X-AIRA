@@ -9,10 +9,10 @@ from telegram.ext import (
     run_async,
 )
 
-import Aira.modules.sql.global_bans_sql as gban_sql
-import Aira.modules.sql.users_sql as user_sql
-from Aira import DEV_USERS, OWNER_ID, dispatcher
-from Aira.modules.helper_funcs.chat_status import dev_plus
+import Sherlock.modules.sql.global_bans_sql as gban_sql
+import Sherlock.modules.sql.users_sql as user_sql
+from Sherlock import DEV_USERS, OWNER_ID, dispatcher
+from Sherlock.modules.helper_funcs.chat_status import dev_plus
 
 
 def get_invalid_chats(update: Update, context: CallbackContext, remove: bool = False):

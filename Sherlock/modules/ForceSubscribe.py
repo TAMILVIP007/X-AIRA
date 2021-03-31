@@ -26,9 +26,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from Aira import DRAGONS as SUDO_USERS
-from Aira import pbot
-from Aira.modules.sql import forceSubscribe_sql as sql
+from Sherlock import DRAGONS as SUDO_USERS
+from Sherlock import pbot
+from Sherlock.modules.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
